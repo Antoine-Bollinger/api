@@ -1,0 +1,20 @@
+{
+    "name": "abollinger/api",
+    "description": "Api plug-in for the partez framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Partez\\Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antoine Bollinger",
+            "email": "antoine.bollinger@gmail.com"
+        }
+    ],
+    "require": {
+        "abollinger/helpers": "^1.2"
+    }
+}
