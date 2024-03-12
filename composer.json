@@ -1,7 +1,7 @@
 {
     "name": "abollinger/api",
     "description": "Api plug-in for the partez framework",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
