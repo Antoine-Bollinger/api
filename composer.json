@@ -9,11 +9,10 @@
         }
     },
     "extra": {
-        "installer-paths": {
-            "api/": [
-                "src/*"
-            ]
-        }
+        "target-dir": "api",
+        "files": [
+            "src/*"
+        ]
     },
     "authors": [
         {
