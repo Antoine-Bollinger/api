@@ -8,10 +8,9 @@
             "Partez\\Api\\": "src/"
         }
     },
-    "extra": {
-        "target-dir": "api",
-        "files": [
-            "src/*"
+    "scripts": {
+        "post-install-cmd": [
+            "php -r \"copy('src', '../../../api', true);\""
         ]
     },
     "authors": [
