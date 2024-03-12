@@ -8,6 +8,13 @@
             "Partez\\Api\\": "src/"
         }
     },
+    "extra": {
+        "installer-paths": {
+            "api/": [
+                "src/"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Antoine Bollinger",
